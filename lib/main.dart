@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:project1_1071/converter_page.dart';
 //import 'package:project1_1071/Image_page.dart';
-//import 'package:project1_1071/converter_page.dart';
 import 'package:project1_1071/home_page.dart';
 import 'package:project1_1071/log_in.dart';
 import 'package:project1_1071/registration.dart';
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.light(),
       debugShowCheckedModeBanner: false,
-      home: RegistrationPage(),
+      home: ConverterPage(),
     );
   }
 }
